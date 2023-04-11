@@ -3,10 +3,9 @@ import {useState} from "react"
 
  
 
-function commentsPage() {
+function CommentsPage() {
   const[comments,setComments]=useState([])
   const[comment,setComment]=useState('')
-  const[commenting,setCommenting]=useState('')
 
 
   const fetchComments = async () => {
@@ -77,4 +76,4 @@ function commentsPage() {
 }
 
 
-export default commentsPage;
+export default CommentsPage;
